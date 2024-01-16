@@ -5,6 +5,13 @@ nav:
       - 3d기본 : 
         - intro : "1년간_학습/3d_basic/3dmodeling_basic.md"
         - mesh&nurb: "1년간_학습/3d_basic/mesh_nurb.md"
+      - 3d modeling : 
+        - 3D 모델링 : "1년간_학습/3d_modeling_tools/3d_modeling.md"
+        - AutoCAD : "1년간_학습/3d_modeling_tools/AutoCAD.md"
+        - Sketchup : "1년간_학습/3d_modeling_tools/Sketchup.md"
+        - Revit : "1년간_학습/3d_modeling_tools/Revit.md"
+        - Rhino3d : "1년간_학습/3d_modeling_tools/Rhino3d.md"
+        - conclude : "1년간_학습/3d_modeling_tools/conclude.md"
   - 2.스케치업 기초 (2D 디자인) :       
       - 기본 : "sketchup2/basic.md"
       - 인터페이스 : "sketchup2/interface.md"
