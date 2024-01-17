@@ -1,47 +1,45 @@
-site_name: 디지털 심화[KR]
+site_name: "디지털 심화 과정"
 
 nav:
-  - 1.학습 소개: 
-      - 3d기본 : 
-        - intro : "1년간_학습/3d_basic/3dmodeling_basic.md"
+  - 1.강의 개요 / 학습 소개: 
+      - 3d기본 :         
         - mesh&nurb: "1년간_학습/3d_basic/mesh_nurb.md"
-      - 3d modeling : 
-        - 3D 모델링 : "1년간_학습/3d_modeling_tools/3d_modeling.md"
+      - 3d modeling :         
         - AutoCAD : "1년간_학습/3d_modeling_tools/AutoCAD.md"
         - Sketchup : "1년간_학습/3d_modeling_tools/Sketchup.md"
         - Revit : "1년간_학습/3d_modeling_tools/Revit.md"
         - Rhino3d : "1년간_학습/3d_modeling_tools/Rhino3d.md"
-        - conclude : "1년간_학습/3d_modeling_tools/conclude.md"
-  - 2.스케치업 기초 (2D 디자인) :       
+        
+  - 2.SketchUp기초 (2D 디자인) :       
       - 기본 : "sketchup2/basic.md"
       - 인터페이스 : "sketchup2/interface.md"
       - 과제 : "sketchup2/assessment.md"
-  - 3.스케치업 시작 (3D 모델링): 
+  - 3.SketchUp시작 (3D 모델링): 
       - 모델링 : "sketchup3/modeling.md"
-  - 4.스케치업과 플러그인 (1): 
+  - 4.SketchUp과 플러그인: 
       - 플러그인 : "sketchup4/ruby.md"
-  - 5.스케치업 웨어하우스와 플러그인 : 
+  - 5.SketchUp과 웨어하우스 : 
       - 웨어하우스 : "sketchup5/warehouse.md"
       - 플러그인(2): "sketchup5/plugin2.md"
-  - 6.스케치업에서의 텍스처 및 조명 효과:
+  - 6.SketchUp 텍스처/조명효과:
       - 택스쳐 및 조명 : "sketchup6/lighttexture.md"
-  - 7. 엔스케이프로 스케치업 렌더링(1):
-      - 엔스케이프 : "sketchup7/enscape.md"
-  - 8. 엔스케이프의 고급 렌더링 기법:
+  - 7.Enscape SketchUp (1):
+      - Enscape : "sketchup7/enscape.md"
+  - 8.Enscape SketchUp (2):
       - 엔스케이프_고급 : "enscape8/gen3d.md"
-  - 9. 중간 프로젝트 실습 및 질의응답 세션 :
-      - 프로젝트 내용 : "midtest/gen3d.md"
-  - 10. 중간 프로젝트 발표와 평가 :
-      - 프로젝트 내용 : "midtest2/gen3d.md"  
-  - 11. 오토캐드 입문 기본 도면과 그 이상 :
+  - 9.중간 프로젝트 QnA :
+      - 프로젝트 내용 : "midtest9/gen3d.md"
+  - 10.중간 프로젝트 발표 :
+      - 프로젝트 내용 : "midtest10/gen3d.md"  
+  - 11.오토캐드 입문 (1) :
       - 프로젝트 내용 : "AutoCAD11/gen3d.md"    
-  - 12. 오토캐드 입문 인터페이스와 기본 도형 :
+  - 12.오토캐드 입문 (2) :
       - 프로젝트 내용 : "AutoCAD12/gen3d.md"          
-  - 13. 오토캐드 실무 사용 도면 :
+  - 13.오토캐드 실무 (3) :
       - 프로젝트 내용 : "AutoCAD13/gen3d.md"     
-  - 14. 오토캐드의 완성 도면 출력과 파일 공유 :
+  - 14.오토캐드 출력/공유(4) :
       - 프로젝트 내용 : "AutoCAD14/gen3d.md"   
-  - 15. 최종 프로젝트 와 2D 3D 렌더링의 통합 :
+  - 15.최종 프로젝트  :
       - 프로젝트 내용 : "AutoCAD15/gen3d.md"  
 
 
