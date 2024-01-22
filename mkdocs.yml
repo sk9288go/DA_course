@@ -5,8 +5,7 @@ nav:
       - 3d기본 : 
         - intro : "1.학습소개/3d_basic/cartisian coordinates.md"
         - mesh&nurb: "1.학습소개/3d_basic/Mesh_Nurb.md"
-      - 3d modeling : 
-        
+      - 3d modeling :         
         - AutoCAD : "1.학습소개/3d_modeling_tools/AutoCAD.md"
         - Sketchup : "1.학습소개/3d_modeling_tools/Sketchup.md"
         - Revit : "1.학습소개/3d_modeling_tools/Revit.md"
