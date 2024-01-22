@@ -1,6 +1,18 @@
 site_name: "디지털 심화 과정"
 
 nav:
+  - 1.학습 소개: 
+      - 3d기본 : 
+        - intro : "1.학습소개/3d_basic/cartisian coordinates.md"
+        - mesh&nurb: "1.학습소개/3d_basic/Mesh_Nurb.md"
+      - 3d modeling : 
+        
+        - AutoCAD : "1.학습소개/3d_modeling_tools/AutoCAD.md"
+        - Sketchup : "1.학습소개/3d_modeling_tools/Sketchup.md"
+        - Revit : "1.학습소개/3d_modeling_tools/Revit.md"
+        - Rhino3d : "1.학습소개/3d_modeling_tools/Rhino3d.md"
+        
+  - 2.스케치업 기초 (2D 디자인) :       
       - 기본 : "sketchup2/basic.md"
       - 인터페이스 : "sketchup2/interface.md"
       - 과제 : "sketchup2/assessment.md"
