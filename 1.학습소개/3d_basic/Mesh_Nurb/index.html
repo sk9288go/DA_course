@@ -20,7 +20,7 @@
     
     
       
-        <title>Mesh & Nurb - 디지털 심화 과정</title>
+        <title>1-2. Mesh & Nurb - 디지털 심화 과정</title>
       
     
     
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Mesh & Nurb
+              1-2. Mesh & Nurb
             
           </span>
         </div>
@@ -256,7 +256,7 @@
             
   
   <span class="md-ellipsis">
-    3d기본
+    1. 3d기본
   </span>
   
 
@@ -266,7 +266,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_1">
             <span class="md-nav__icon md-icon"></span>
-            3d기본
+            1. 3d기본
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -281,7 +281,7 @@
         
   
   <span class="md-ellipsis">
-    It all started with a fly
+    1-1. It all started with a fly
   </span>
   
 
@@ -309,7 +309,7 @@
           
   
   <span class="md-ellipsis">
-    Mesh & Nurb
+    1-2. Mesh & Nurb
   </span>
   
 
@@ -320,7 +320,7 @@
         
   
   <span class="md-ellipsis">
-    Mesh & Nurb
+    1-2. Mesh & Nurb
   </span>
   
 
@@ -436,7 +436,7 @@
             
   
   <span class="md-ellipsis">
-    3d modeling
+    2. 3d modeling
   </span>
   
 
@@ -446,7 +446,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1_2">
             <span class="md-nav__icon md-icon"></span>
-            3d modeling
+            2. 3d modeling
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -461,7 +461,7 @@
         
   
   <span class="md-ellipsis">
-    AutoCAD
+    2-1. AutoCAD
   </span>
   
 
@@ -482,7 +482,7 @@
         
   
   <span class="md-ellipsis">
-    Sketchup
+    2-2. Sketchup
   </span>
   
 
@@ -503,7 +503,7 @@
         
   
   <span class="md-ellipsis">
-    Revit
+    2-3. Revit
   </span>
   
 
@@ -524,7 +524,7 @@
         
   
   <span class="md-ellipsis">
-    Rhino3d
+    2-4. Rhino3d
   </span>
   
 
@@ -1618,7 +1618,7 @@
                   
 
 
-  <h1>Mesh & Nurb</h1>
+  <h1>1-2. Mesh & Nurb</h1>
 
 <h2 id="_1">메쉬와 너브 커브의 차이점:</h2>
 <p align="center">
@@ -1634,12 +1634,11 @@
 <hr />
 <h2 id="mesh">메쉬 (Mesh) 모델링</h2>
 <p align="center">
-  <img src="../../../img/MESH.png" alt="Advanced Digital" width = "400px">
+  <img src="../../../img/MESH.PNG" alt="Advanced Digital" width = "300px">
 </p>
 
-<p>메쉬 모델링은 다양한 폴리곤(삼각형 또는 사각형)을 이용해 3D 모델을 생성하는 방식입니다.
-2d에서는 픽셀, raster 이미지로 이해가 가능하구요 코끼리에서는 타일을 만들어서 만든 첫번쨰 이미지로 설명 가능합니다. 
-구성요소로는 점, 선, 면으로 대표적인 obj파일을 살펴보면 우선 점들을 나열해놓고 그뒤에 면을 정의함으로써 3d 모델을 구현합니다. </p>
+<p>메쉬 모델링은 다양한 폴리곤(삼각형 또는 사각형)을 이용해 3D 모델을 생성하는 방식입니다.<br></p>
+<p>구성요소로는 점, 선, 면으로 대표적인 obj파일을 살펴보면 우선 점들을 나열해놓고 그뒤에 면을 정의함으로써 3d 모델을 구현합니다. </p>
 <p><strong>구성 요소</strong>:<br>
 - <i>Vertices (버텍스)</i>: 3D 공간 내의 점들로, 모델의 모양을 정의하는 기본 단위입니다.<br>
 - <i>Edges (엣지)</i>: 버텍스를 연결하는 직선으로, 폴리곤의 테두리를 구성합니다.<br>
@@ -1654,12 +1653,21 @@ v 0.123 0.234 0.345  # 첫 번째 버텍스의 x, y, z 좌표
 v 0.456 0.567 0.678  # 두 번째 버텍스
 v 0.789 0.890 0.901  # 세 번째 버텍스
 
+# 라인 정의 (l은 라인을 의미)
+l 1 2  # 첫 번째 버텍스와 두 번째 버텍스를 연결하여 라인을 형성
+l 2 3  # 두 번째 버텍스와 세 번째 버텍스를 연결하여 라인을 형성
+l 3 1  # 세 번째 버텍스와 첫 번째 버텍스를 연결하여 라인을 형성
+
 # 면 정의 (f는 면을 의미)
 f 1 2 3  # 첫 번째, 두 번째, 세 번째 버텍스를 연결하여 면을 형성
 </code></pre></div>
 
 <hr />
 <h2 id="nurbs-non-uniform-rational-b-splines">NURBS (Non-Uniform Rational B-Splines) 커브 모델링</h2>
+<p align="center">
+  <img src="../../../img/NURB.jpg" alt="Advanced Digital" width = "300px">
+</p>
+
 <p><strong>정의</strong>: <br>
 NURBS 커브 모델링은 복잡한 형상과 부드러운 표면을 표현하는 데 유용한 3D 모델링 방법입니다.</p>
 <p><strong>구성 요소</strong>:<br>
