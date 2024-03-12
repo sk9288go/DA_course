@@ -17,6 +17,7 @@
 3. **상태바:** 프로그램의 현재 상태를 나타내는 공간입니다. 선택한 도구의 기능, 현재 작업 중인 명령 등의 정보를 표시합니다.
 
 4. **창:** 작업 공간을 나타냅니다. 3D 모델링을 진행하며, 모델의 다양한 뷰를 확인하거나 조절할 수 있습니다.
+
 ----
 
 ### 1.1 영문변환
@@ -26,7 +27,7 @@
 **언어 폴더 이름 변경:** Resources 폴더 내에서 ko 폴더를 찾습니다. 이 폴더는 한국어 언어 리소스를 포함하고 있습니다.<br>
 ko 폴더의 이름을 변경합니다.(ko_backup) 이렇게 하면 스케치업은 한국어 리소스를 찾을 수 없게 되어 기본 언어(영어)로 돌아갑니다.
 
-https://blog.naver.com/design_iyagi/220562232602
+> https://blog.naver.com/design_iyagi/220562232602
 ----
 
 ### 1.3 세션: 기본 도구 사용법
@@ -35,7 +36,6 @@ https://blog.naver.com/design_iyagi/220562232602
   <img src="../../img/sketchupshort.jpg" alt="Advanced Digital" width = "1000px">
 </p>
 
----
 <p align="center">
   <img src="../../img/sketchupshort2.png" alt="Advanced Digital" width = "1000px">
 </p>
