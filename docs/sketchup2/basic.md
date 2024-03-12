@@ -27,7 +27,7 @@
 **언어 폴더 이름 변경:** Resources 폴더 내에서 ko 폴더를 찾습니다. 이 폴더는 한국어 언어 리소스를 포함하고 있습니다.<br>
 ko 폴더의 이름을 변경합니다.(ko_backup) 이렇게 하면 스케치업은 한국어 리소스를 찾을 수 없게 되어 기본 언어(영어)로 돌아갑니다.
 
-> https://blog.naver.com/design_iyagi/220562232602
+        https://blog.naver.com/design_iyagi/220562232602
 ----
 
 ### 1.3 세션: 기본 도구 사용법
