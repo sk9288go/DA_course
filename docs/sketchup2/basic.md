@@ -37,7 +37,7 @@ https://blog.naver.com/design_iyagi/220562232602
 
 ---
 <p align="center">
-  <img src="../../img/sketchupshort2.jpg" alt="Advanced Digital" width = "1000px">
+  <img src="../../img/sketchupshort2.png" alt="Advanced Digital" width = "1000px">
 </p>
 
 ----
