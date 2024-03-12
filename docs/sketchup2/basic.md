@@ -34,9 +34,6 @@ ko 폴더의 이름을 변경합니다.(ko_backup) 이렇게 하면 스케치업
 
 <p align="center">
   <img src="../../img/sketchupshort.jpg" alt="Advanced Digital" width = "1000px">
-</p>
-
-<p align="center">
   <img src="../../img/sketchupshort2.png" alt="Advanced Digital" width = "1000px">
 </p>
 
