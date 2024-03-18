@@ -12,10 +12,10 @@ nav:
         - 2-4. Rhino3d : "1.학습소개/3d_modeling_tools/Rhino3d.md"
         
   - 2.스케치업 기초 (2D 디자인) :       
-      - 기본 : "sketchup2/basic.md"   
+      - 기본 : "sketchup2/basic.md"
       - 과제 : "sketchup2/assessment.md"
   - 3.SketchUp시작 (3D 모델링): 
-      - 모델링 : "sketchup3/modeling.md"
+      - 모델링 : "sketchup3/3rdweek.md"
   - 4.SketchUp과 플러그인: 
       - 플러그인 : "sketchup4/ruby.md"
   - 5.SketchUp과 웨어하우스 : 
